@@ -12,6 +12,7 @@ NASA EOSDIS is evolving to use a commercial cloud to ingest, archive, process, d
 The [Cloud Primer](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/cloud-primer-amazon-web-services)* is a series of tutorial PDFs to help walk a user through the steps needed to do analysis in the cloud. The Primer focuses on doing so through AWS (via [EC2](https://aws.amazon.com/ec2/) and [S3](https://aws.amazon.com/s3/)) as our data archives are stored in AWS. Users can take best advantage of data speeds and compute resources by using these Amazon services which "sit" directly next to the data. 
 
 The tutorial is broken up into 9 parts: 
+
 [01 — Why Use the Cloud?](https://www.earthdata.nasa.gov/sites/default/files/imported/01_Why_Use_the_Cloud.pdf)\
 [02 — Understanding and Managing Costs in the AWS Cloud](https://www.earthdata.nasa.gov/sites/default/files/imported/02_Understanding_and_Managing_Costs_in_the_AWS_Cloud.pdf)\
 [03 — Create a Basic Elastic Cloud Computer (EC2) Instance](https://www.earthdata.nasa.gov/sites/default/files/imported/03_Create_a_Basic_Elastic_Cloud_Compute__EC2__Instance.pdf)\
@@ -26,3 +27,8 @@ The tutorial is broken up into 9 parts:
 
 
 ### Openscapes
+[Openscapes](https://openscapes.org/) started in 2018 as a Mozilla fellowship to "help other environmental science teams harness the power of collaborative coding and foster a scientific culture that is more welcoming, open, and efficient". It is now a NASA [ROSES](https://science.nasa.gov/researchers/sara/grant-solicitations) funded program meant to support researchers migrating workflows to the cloud by working with mentors from the EOSDIS ([NASA's Earth Observing System Data and Information System](https://www.earthdata.nasa.gov/eosdis)) DAACs ([Distributed Active Archive Centers](https://www.earthdata.nasa.gov/eosdis/daacs)) to help support the specific needs of the NASA community. 
+
+Five EOSDIS DAACs are participating in the first cohort: Atmospheric Science Data Center ([ASDC](https://asdc.larc.nasa.gov/)), Goddard Earth Sciences Data and Information Services Center ([GES DISC](https://disc.gsfc.nasa.gov/)), Land Processes DAAC ([LP DAAC](https://lpdaac.usgs.gov/)), National Snow and Ice Data Center DAAC ([NSIDC](https://nsidc.org/home)), and Physical Oceanography DAAC ([PO.DAAC](https://podaac.jpl.nasa.gov/)). Each DAAC selected up to three mentors, who are already helping researchers utilize the Earthdata Cloud.
+
+The Openscapes [Github page](https://nasa-openscapes.github.io/) has phenomenal resources for connecting with mentors, presentations, and the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) which is a great resource to answer questions about if cloud analysis is for you and how to and several how-to's for those less software-inclined. They also have a workshop at AGU 2023: [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427)!
