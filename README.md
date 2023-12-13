@@ -4,11 +4,13 @@ Welcome to the EOSDIS Cloud Data Resource page! This document serves to act as a
 This page is meant to serve as an amalgamation of NASA's resources for using data from and in the cloud. This includes sources from NASA, NASA partners and other affiliates. 
 
 ### Why Use the Cloud?
+
 NASA EOSDIS is evolving to use a commercial cloud to ingest, archive, process, distribute, and manage the anticipated large volumes of new mission data. Placing the EOSDIS archive collectively in the cloud will, for the first time, place NASA Earth Observing data “close to compute” and improve management and accessibility of these data while also expediting science discovery for data users. Having EOSDIS data in the cloud will not change the existing user experience of interacting with these data, but it will offer new methods of access not otherwise possible with on-premises platforms.
 
 
 
 ### Earthdata Cloud Primer for Amazon Web Services
+
 The [Cloud Primer](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/cloud-primer-amazon-web-services)* is a series of tutorial PDFs to help walk a user through the steps needed to do analysis in the cloud. The Primer focuses on doing so through AWS (via [EC2](https://aws.amazon.com/ec2/) and [S3](https://aws.amazon.com/s3/)) as our data archives are stored in AWS. Users can take best advantage of data speeds and compute resources by using these Amazon services which "sit" directly next to the data. 
 
 The tutorial is broken up into 9 parts: 
@@ -27,11 +29,24 @@ The tutorial is broken up into 9 parts:
 
 
 ### Openscapes
+
 [Openscapes](https://openscapes.org/) started in 2018 as a Mozilla fellowship to "help other environmental science teams harness the power of collaborative coding and foster a scientific culture that is more welcoming, open, and efficient". It is now a NASA [ROSES](https://science.nasa.gov/researchers/sara/grant-solicitations) funded program meant to support researchers migrating workflows to the cloud by working with mentors from the EOSDIS ([NASA's Earth Observing System Data and Information System](https://www.earthdata.nasa.gov/eosdis)) DAACs ([Distributed Active Archive Centers](https://www.earthdata.nasa.gov/eosdis/daacs)) to help support the specific needs of the NASA community. 
 
 Five EOSDIS DAACs are participating in the first cohort: Atmospheric Science Data Center ([ASDC](https://asdc.larc.nasa.gov/)), Goddard Earth Sciences Data and Information Services Center ([GES DISC](https://disc.gsfc.nasa.gov/)), Land Processes DAAC ([LP DAAC](https://lpdaac.usgs.gov/)), National Snow and Ice Data Center DAAC ([NSIDC](https://nsidc.org/home)), and Physical Oceanography DAAC ([PO.DAAC](https://podaac.jpl.nasa.gov/)). Each DAAC selected up to three mentors, who are already helping researchers utilize the Earthdata Cloud.
 
 The Openscapes [Github page](https://nasa-openscapes.github.io/) has phenomenal resources for connecting with mentors, presentations, and the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) which is a great resource to answer questions about if cloud analysis is for you and how to and several how-to's for those less software-inclined. They also have a workshop at AGU 2023: [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427)!
 
+### DAAC Specific Resources
 
-  [![Hits](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource.svg)](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource)
+Several DAACs have guides on how they have migrated to the cloud and how you as a user can take advantage of their cloud data. Although these resources are largely specific to that particular DAAC, much of the information is useful in any context. 
+
+##### NASA Earthdata Cloud Data Access Guide
+
+The [NASA Earthdata Cloud Data Access Guide](https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide) from the [National Snow and Ice Data Center (NSIDC)](https://nsidc.org) is a step-by-step guide for accessing ICESat products in the cloud. It walks through finding the data via [Earthdata Search](https://search.earthdata.nasa.gov), saving the generated S3 links for cloud use, creating temporary AWS S3 credentials, and using the data from an S3 bucket in an EC2 instance. 
+
+##### LAADS DAAC in the Cloud
+
+The [LAADS DAAC in the Cloud](https://ladsweb.modaps.eosdis.nasa.gov/cloud/) from the [Level-1 and Atmospheric Archive & Distribution System DAAC (LAADS)](https://ladsweb.modaps.eosdis.nasa.gov) includes benefits for moving into the cloud, a video instruction course for using S3 direct access and Earthdata Search in the cloud, some frequently asked questions and a migration to the cloud timeline. 
+
+##### PO.DAAC Cloud Data Resources
+[PO.DAAC](https://podaac.jpl.nasa.gov) has two cloud data resources - a [written slideshow guide](https://podaac.jpl.nasa.gov/cloud-datasets/about) detailing how to access data and utilize it in the cloud, as well as a [recorded webinar](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/webinar-cloud-computing-PO.DAAC) detailing a step-by-step walkthrough of using PO.DAAC data hosted in Earthdata Cloud that assumes zero knowledge of both AWS services and Earthdata Cloud. 
