@@ -50,3 +50,10 @@ The [LAADS DAAC in the Cloud](https://ladsweb.modaps.eosdis.nasa.gov/cloud/) fro
 
 ##### PO.DAAC Cloud Data Resources
 [PO.DAAC](https://podaac.jpl.nasa.gov) has two cloud data resources - a [written slideshow guide](https://podaac.jpl.nasa.gov/cloud-datasets/about) detailing how to access data and utilize it in the cloud, as well as a [recorded webinar](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/webinar-cloud-computing-PO.DAAC) detailing a step-by-step walkthrough of using PO.DAAC data hosted in Earthdata Cloud that assumes zero knowledge of both AWS services and Earthdata Cloud. 
+
+
+### Questions? Comments?
+
+If you have any questions or comments regarding using NASA Earthdata in the cloud, or want to request any resources, please feel free to [open a Github issue](https://github.com/eosdis-nasa/cloud-data-resource/issues). If you don't have a Github account or are unsure of how to open an issue, you can always email me at nicholas.l.doty@nasa.gov. 
+
+  [![Hits](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource.svg)](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource)
