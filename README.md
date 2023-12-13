@@ -32,3 +32,6 @@ The tutorial is broken up into 9 parts:
 Five EOSDIS DAACs are participating in the first cohort: Atmospheric Science Data Center ([ASDC](https://asdc.larc.nasa.gov/)), Goddard Earth Sciences Data and Information Services Center ([GES DISC](https://disc.gsfc.nasa.gov/)), Land Processes DAAC ([LP DAAC](https://lpdaac.usgs.gov/)), National Snow and Ice Data Center DAAC ([NSIDC](https://nsidc.org/home)), and Physical Oceanography DAAC ([PO.DAAC](https://podaac.jpl.nasa.gov/)). Each DAAC selected up to three mentors, who are already helping researchers utilize the Earthdata Cloud.
 
 The Openscapes [Github page](https://nasa-openscapes.github.io/) has phenomenal resources for connecting with mentors, presentations, and the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) which is a great resource to answer questions about if cloud analysis is for you and how to and several how-to's for those less software-inclined. They also have a workshop at AGU 2023: [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427)!
+
+
+  [![Hits](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource.svg)](https://hits.sh/github.com/eosdis-nasa/cloud-data-resource)
